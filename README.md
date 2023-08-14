@@ -20,9 +20,8 @@ PySmooth depends on the following python libraries. These libraries are already 
 
 You can simply download the following scripts from `src` folder in `GenotypeFixer` GitHub page and put them in a single folder. 
 
-- `utilities_parallel.py`
-- `motif_viz.py`
-- `run_ChromNetMotif.py`
+- `ImputeMissingGenotype.py`
+- `run_GenotypeFix.py`
 
 
 ## Usage
