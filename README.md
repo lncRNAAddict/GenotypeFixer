@@ -59,4 +59,4 @@ The genotype file MUST have the following columns:
 
 A screeshot of a portion of an example input file is shown below
 
-![Example Input Genotype File](https://github.com/lncRNAAddict/PySmooth/blob/main/example/GenotypeInput.PNG)
+![Example Input Genotype File](https://github.com/lncRNAAddict/GenotypeFixer/blob/main/Figures/genotype_file.JPG)
