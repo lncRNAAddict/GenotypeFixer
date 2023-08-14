@@ -50,4 +50,4 @@ Once the working directory is set, shown below is an example of executing `run_C
 
 The code above will extract chromatin-state marked motifs of size 4 and generate all output files with prefix `my_output`. Computation will be done using 4 processors in parallel. P-value of 0.05 and minimum frequency of 50 will be used to identify significant motifs selected for visualization.
   
-### Input Chromatin state network file format
+### Input genotype file format
