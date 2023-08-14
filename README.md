@@ -48,3 +48,15 @@ Once the working directory is set, shown below is an example of executing `run_G
 The code above will process all the chromosomes and fix the errors and missing data in the genotype file  and generate all output files with the prefix `my_output`. 
   
 ### Input genotype file format
+
+The First row is the header. Each row represents a unique marker.
+
+The genotype file MUST have the following columns:
+
+- Column 1: Chromosome name.
+- Column 2: Genomic Position of the marker in the chromosome. For each chromosome,column 2 MUST already be sorted in ascending order.
+- Column 3 and beyond: Genotype code for the individuals in the marker location. Four codes can be used. `A`: Reference parent homozygous, `B`: Alternatte parent homozygous, `X`: heterozygous, `-`: missing data.
+
+A screeshot of a portion of an example input file is shown below
+
+![Example Input Genotype File](https://github.com/lncRNAAddict/PySmooth/blob/main/example/GenotypeInput.PNG)
