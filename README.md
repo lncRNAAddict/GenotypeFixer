@@ -1,4 +1,4 @@
-# GenotypeFixer
+# GenotypeFix
 
 Here, we present a python tool called `GenotypeFixer` which offers an easy-to-use command line interface that corrects genotype calls and imputes missing data to improve the accuracy of genetic mapping. 
 
@@ -18,7 +18,7 @@ PySmooth depends on the following python libraries. These libraries are already 
 ## Installation
 
 
-You can simply download the following scripts from `src` folder in `ChromNetMotif` GitHub page and put them in a single folder. 
+You can simply download the following scripts from `src` folder in `GenotypeFixer` GitHub page and put them in a single folder. 
 
 - `utilities_parallel.py`
 - `motif_viz.py`
@@ -27,9 +27,9 @@ You can simply download the following scripts from `src` folder in `ChromNetMoti
 
 ## Usage
 
-`ChromNetMotif` is executed using the python script `run_ChromNetMotif.py` in the python command line.
+`GenotypeFix` is executed using the python script `run_GenotypeFixer.py` in the python command line.
 
-`run_ChromNetkMotif.py` takes the following arguments
+`run_GenotypeFix.py` takes the following arguments
 
 - `-g` or `--genotype`: Name of the input genotype file. This MUST be provided.
 - '-o' or `--output`: Prefix to name of output files to be generated. If not provided, default is `test`.
