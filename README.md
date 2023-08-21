@@ -79,4 +79,4 @@ For each chromosome, PySmooth Generates the following outputs.
 
 A screeshot of a portion of an example input file is shown below
 
-![Example Input Genotype File](https://github.com/lncRNAAddict/GenotypeFixer/blob/main/Figures/corrected.JPG)
+![Example Input Genotype File](https://github.com/lncRNAAddict/GenotypeFixer/blob/main/Figures/corrected.jpg)
