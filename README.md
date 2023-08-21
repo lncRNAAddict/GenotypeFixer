@@ -77,4 +77,6 @@ For each chromosome, PySmooth Generates the following outputs.
 - Three summary csv files: `<output>_<chr>.stats.csv`, `<output>_<chr>_singletons_stats.csv`, and `<output>_<chr>_imputed_stats.csv` that contain `%` of homozygous, heterozygous calls for each individual for the raw genoytpe file, after singleton detection, and after error correction. Examples are shown below.
 
 
+A screeshot of a portion of an example input file is shown below
 
+![Example Input Genotype File](https://github.com/lncRNAAddict/GenotypeFixer/blob/main/Figures/corrected.JPG)
