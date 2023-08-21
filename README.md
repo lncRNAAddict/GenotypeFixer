@@ -77,6 +77,7 @@ GenotypeFixer Generates the following outputs.
 
 - Corrected genotype File: This is the corrected genotype file. A screeshot of a portion of an example corrected file is shown below
 
+
 ![Example Input Genotype File](https://github.com/lncRNAAddict/GenotypeFixer/blob/main/Figures/corrected.jpg)
 
 - Summary stats file: `<output>.corrected.stats.csv` This file contains statistics on the correction performed by GenotypeFixer. A screeshot of a portion of an example corrected file is shown below. For each sample, the number of corrections for seven different categories are provided.
