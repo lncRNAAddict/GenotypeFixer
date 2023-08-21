@@ -1,5 +1,6 @@
 # GenotypeFixer
 
+
 Here, we present a Python tool called `GenotypeFixer` which offers an easy-to-use command line interface that corrects genotype calls and imputes missing data to improve the accuracy of genetic mapping. Popular tools require to input parameters such as homozygous and heterozygous error rate etc. GenotypeFixer doesn't need any of these parameters.
 
 
