@@ -76,7 +76,7 @@ A screeshot of a portion of an example input file is shown below
 ### Outputs
 GenotypeFixer Generates the following outputs.
 
-- Corrected genotype File: This is the corrected genotype file. A screeshot of a portion of an example corrected file is shown below
+- Corrected genotype File: `<output>.corrected.csv` This is the corrected genotype file. A screeshot of a portion of an example corrected file is shown below
 
 
 ![Example Input Genotype File](https://github.com/lncRNAAddict/GenotypeFixer/blob/main/Figures/corrected.jpg)
@@ -84,7 +84,7 @@ GenotypeFixer Generates the following outputs.
 - Summary stats file: `<output>.corrected.stats.csv` This file contains statistics on the correction performed by GenotypeFixer. A screeshot of a portion of an example corrected file is shown below. For each sample, the number of corrections for seven different categories are provided.
 ![Example Input Genotype File](https://github.com/lncRNAAddict/GenotypeFixer/blob/main/Figures/corrected_stats.jpg)
 
-- Summary stats files: `<genotype_file>.stats.csv` and `<output>.stats.csv` that contain `%` of homozygous, heterozygous, missing calls for each individual for the raw genoytpe filer and after error correction, respectively. Examples are shown below.
+- Summary stats files: `<genotype_file>.summary.stats.csv` and `<output>.summary.stats.csv` that contain `%` of homozygous, heterozygous, missing calls for each individual for the raw genoytpe filer and after error correction, respectively. Examples are shown below.
 
 Count and percentage of each type of genotype call in the original file
 
@@ -100,7 +100,15 @@ Count and percentage of each type of genotype call in the corrected file
 
 In the `Data` folder, there are two example genotype files : `fixed_columns_set_RIL_20_0M_10_0F.csv` and `fixed_columns_set_F2_20_0M_10_0F.csv`
 
+To execute `GenotypeFixer` on the file `fixed_columns_set_RIL_20_0M_10_0F.csv`, simply use the following command
 
-`python run_GenotypeFix.py -g Data/fixed_columns_set_RIL_20_0M_10_0F.csv -o my_output`
+`python run_GenotypeFix.py -g Data/fixed_columns_set_RIL_20_0M_10_0F.csv -o Data/my_output`
+
+It will generate the folllowing files:
+
+- `Data/my_output.corrected.csv`
+- `Data/my_output.corrected.stats.csv`
+- `Data/fixed_columns_set_RIL_20_0M_10_0F.csv.summary.stats.csv`
+- `Data/my_output.summary.stats.csv`
 
 
