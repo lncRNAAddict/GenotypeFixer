@@ -73,16 +73,15 @@ A screeshot of a portion of an example input file is shown below
 
 
 ### Outputs
+GenotypeFixer Generates the following outputs.
 
-For each chromosome, PySmooth Generates the following outputs.
+- Corrected genotype File: This is corrected genotype file.
 
-- Three summary csv files: `<output>_<chr>.stats.csv`, `<output>_<chr>_singletons_stats.csv`, and `<output>_<chr>_imputed_stats.csv` that contain `%` of homozygous, heterozygous calls for each individual for the raw genoytpe file, after singleton detection, and after error correction. Examples are shown below.
-
-
-A screeshot of a portion of an example input file is shown below
+A screeshot of a portion of an example corrected file is shown below
 
 ![Example Input Genotype File](https://github.com/lncRNAAddict/GenotypeFixer/blob/main/Figures/corrected.jpg)
 
-
+- Summary stats file: `<output>.stats.csv` This file contains statistics on the correction performed by GenotypeFixer. For each sample, 
 ![Example Input Genotype File](https://github.com/lncRNAAddict/GenotypeFixer/blob/main/Figures/corrected_stats.jpg)
 
+- Summary stats file: `<output>.stats.csv` that contain `%` of homozygous, heterozygous calls for each individual for the raw genoytpe filer and after error correction. Examples are shown below.
