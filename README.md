@@ -83,3 +83,9 @@ GenotypeFixer Generates the following outputs.
 ![Example Input Genotype File](https://github.com/lncRNAAddict/GenotypeFixer/blob/main/Figures/corrected_stats.jpg)
 
 - Summary stats files: `<genotype_file>.stats.csv` and `<output>.stats.csv` that contain `%` of homozygous, heterozygous, missing calls for each individual for the raw genoytpe filer and after error correction, respectively. Examples are shown below.
+
+  ![Example Input Genotype File](https://github.com/lncRNAAddict/GenotypeFixer/blob/main/Figures/original_homo.jpg)
+
+
+![Example Input Genotype File](https://github.com/lncRNAAddict/GenotypeFixer/blob/main/Figures/corrected_homo.jpg)
+
