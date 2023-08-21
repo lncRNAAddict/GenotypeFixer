@@ -16,8 +16,8 @@ PySmooth depends on the following Python libraries. These libraries are already 
 - `Pandas`
 - `Sklearn`
 - `matplotlib`
-- `PyThresh`:  thresholding outlier detection likelihood scores
-- `PyOD`: for outlier/anomaly detection
+- `PyThresh`:  Python package for thresholding outlier detection likelihood scores
+- `PyOD`: Python package for outlier/anomaly detection
 
 
 The libraries `Numpy`, `Pandas`, `Sklearn`, and `Matplotlob` are already included in the anaconda distribution. Therefore, you do not need to install them. Installation instructions for 
