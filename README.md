@@ -65,15 +65,15 @@ The code above will process only chromosomes 1 and 2 and fix the errors and miss
 
 ## Input genotype file format
 
-The First row is the header. Each row represents a unique marker.
+The input genotype file should be a csv file with columns separated by commas. The First row is the header. Each row represents a unique marker.
 
 The genotype file MUST have the following columns:
 
 - Column 1: Chromosome name.
-- Column 2: Genomic Position of the marker in the chromosome. For each chromosome,column 2 MUST already be sorted in ascending order.
-- Column 3 and after: Genotype code for the individuals in the marker location. Four codes can be used. `A`: Reference parent homozygous, `B`: Alternatte parent homozygous, `X`: heterozygous, `-`: missing data.
+- Column 2: Genomic Position of the marker in the chromosome. For each chromosome, its not necessary that column 2 is sorted in ascending order.
+- Column 3 and after: Genotype code for the individuals in the marker location. Four codes can be used. `A`: Reference parent homozygous, `B`: Alternate parent homozygous, `X`: heterozygous, `-`: missing data.
 
-A screeshot of a portion of an example input file is shown below
+A screenshot of a portion of an example input file is shown below
 
 ![Example Input Genotype File](https://github.com/lncRNAAddict/GenotypeFixer/blob/main/Figures/genotype_file.JPG)
 
