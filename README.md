@@ -31,14 +31,14 @@ The libraries `Numpy`, `Pandas`, `Sklearn`, and `Matplotlob` are already include
 You can simply download the following scripts from the `src` folder in the `GenotypeFixer` GitHub page and put them in a single folder. 
 
 - `ImputeMissingGenotype.py`
-- `run_GenotypeFix.py`
+- `run_GenotypeFixer.py`
 
 
 ## Usage
 
 `GenotypeFix` is executed using the Python script `run_GenotypeFixer.py` in the Python command line.
 
-`run_GenotypeFix.py` takes the following arguments
+`run_GenotypeFixer.py` takes the following arguments
 
 - `-g` or `--genotype`: Name of the input genotype file. This MUST be provided.
 - '-o' or `--output`: Prefix to name of output files to be generated. If not provided, the default is `test`.
