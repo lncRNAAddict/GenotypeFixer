@@ -54,7 +54,7 @@ To execute `run_GenotypeFixer.py`, change the working directory to the folder wh
 
 Once the working directory is set, shown below are examples of executing `run_GenotypeFixer.py`.
 
-- `python run_GenotypeFixer.py -g <path to the genotype file>/my_genotype_file.csv  -o my_output -a iforest -t meta -c all`
+- `python run_GenotypeFixer.py -g <path to the genotype file>/my_genotype_file.csv`
 
 The code above will process all the chromosomes and fix the errors and missing data in the genotype file and generate all output files with the prefix `my_output`. 
 
