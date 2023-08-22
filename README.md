@@ -1,7 +1,7 @@
 # GenotypeFixer
 
 
-Here, we present a Python tool called `GenotypeFixer` which offers an easy-to-use command line interface that corrects genotype calls and imputes missing data to improve the accuracy of genetic mapping. Popular tools require to input parameters such as type of population (F2, RIL etc), homozygous and heterozygous error rate, and sliding window size. GenotypeFixer doesn't need any of these parameters. The 
+Here, we present a Python tool called `GenotypeFixer` which offers an easy-to-use command line interface that corrects genotype calls and imputes missing data to improve the accuracy of genetic mapping. Popular tools require to input parameters such as type of population (F2, RIL etc), homozygous and heterozygous error rate, and sliding window size. GenotypeFixer doesn't need any of these parameters. GenotypeFixer uses a three-step process to achieve this. First, the missing genotype labels are imputed by using K-nearest neighbor approach. Secondly, anomalies in the genotype calls are detected. Thirdly, the anomalies are corrected using K-nearest neighbor approach. The main advantage of GenotypeFixer is that it eliminates the need for the user to provide parameters which other tools do. The optimal parameters for the K-nearest neighbor approach and thresholding in anomaly detection algorithms are internally computed by GenotypeFixer. This eliminates the need for the user to perform guesswork. The only input the user need to provide is the input genotype file.
 
 
 
