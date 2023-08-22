@@ -60,7 +60,7 @@ The code above will process all the chromosomes and fix the errors and missing d
 
 - `python run_GenotypeFix.py -g <path to the genotype file>/my_genotype_file.csv  -o my_output -a iforest -t meta -c chr1,chr2`
 
-The code above will process chromosomes 1 and 2 and fix the errors and missing data in the genotype file and generate all output files with the prefix `my_output`.
+The code above will process only chromosomes 1 and 2 and fix the errors and missing data and generate all output files with the prefix `my_output`.
 
 ### Input genotype file format
 
