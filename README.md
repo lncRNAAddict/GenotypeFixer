@@ -43,7 +43,7 @@ You can simply download the following scripts from the `src` folder in the `Geno
 
 - `-g` or `--genotype`: Name of the input genotype file. This MUST be provided.
 - '-o' or `--output`: Prefix to name of output files to be generated. If not provided, the default is `test`.
-- `-a` or `--anomaly`: Name of anomaly detection algorithm to be used (`iforest`, `knn`, `pca` or `ecod` . The default is `iforest`.
+- `-a` or `--anomaly`: Name of anomaly detection algorithm to be used (`iforest`, `pca` or `ecod` . The default is `iforest`.
 - `-t` or `--thresh`: Name of thresholding algorithm to be used (`meta`, `filter`, or `clf` . The default is `meta`.
 - `-c` or `--chrs`: list of chromosomes to be processed (should be separated by a comma). The default is `all`.
 
