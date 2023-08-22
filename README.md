@@ -101,7 +101,7 @@ Count and percentage of each type of genotype call in the corrected file
 
 ![Example Input Genotype File](https://github.com/lncRNAAddict/GenotypeFixer/blob/main/Figures/corrected_homo.jpg)
 
-### Example Data
+## Example Data
 
 In the `Data` folder, there are two example genotype files : `fixed_columns_set_RIL_20_0M_10_0F.csv` and `fixed_columns_set_F2_20_0M_10_0F.csv`
 
