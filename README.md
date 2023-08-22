@@ -47,16 +47,21 @@ You can simply download the following scripts from the `src` folder in the `Geno
 - `-c` or `--chrs`: list of chromosomes to be processed (should be separated by a comma). The default is `all`.
 
 
-To execute `run_GenotypeFix.py`, change the working directory to the folder where the `GenotypeFix` scripts are stored. You can do that by simply typing the following command in the `terminal`, or `command prompt`, or  `anaconda command prompt` depending on your Python installation or OS.
+To execute `run_GenotypeFixer.py`, change the working directory to the folder where the `GenotypeFixer` scripts are stored. You can do that by simply typing the following command in the `terminal`, or `command prompt`, or  `anaconda command prompt` depending on your Python installation or OS.
 
-`cd <path to where GenotypeFix scripts are stored>`
+`cd <path to where GenotypeFixer scripts are stored>`
 
-Once the working directory is set, shown below is an example of executing `run_GenotypeFix.py`.
+Once the working directory is set, shown below are examples of executing `run_GenotypeFixer.py`.
 
-`python run_GenotypeFix.py -g <path to the genotype file>/my_genotype_file.csv  -o my_output -a iforest -t meta -c all`
+- `python run_GenotypeFix.py -g <path to the genotype file>/my_genotype_file.csv  -o my_output -a iforest -t meta -c all`
 
 The code above will process all the chromosomes and fix the errors and missing data in the genotype file and generate all output files with the prefix `my_output`. 
-  
+
+
+- `python run_GenotypeFix.py -g <path to the genotype file>/my_genotype_file.csv  -o my_output -a iforest -t meta -c chr1,chr2`
+
+The code above will process chromosomes 1 and 2 and fix the errors and missing data in the genotype file and generate all output files with the prefix `my_output`.
+
 ### Input genotype file format
 
 The First row is the header. Each row represents a unique marker.
