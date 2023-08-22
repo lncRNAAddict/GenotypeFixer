@@ -34,6 +34,7 @@ You can simply download the following scripts from the `src` folder in the `Geno
 - `run_GenotypeFixer.py`
 
 
+
 ## Usage
 
 `GenotypeFix` is executed using the Python script `run_GenotypeFixer.py` in the Python command line.
