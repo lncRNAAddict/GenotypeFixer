@@ -62,7 +62,7 @@ The code above will process all the chromosomes and fix the errors and missing d
 
 The code above will process only chromosomes 1 and 2 and fix the errors and missing data and generate all output files with the prefix `my_output`.
 
-### Input genotype file format
+## Input genotype file format
 
 The First row is the header. Each row represents a unique marker.
 
@@ -77,7 +77,7 @@ A screeshot of a portion of an example input file is shown below
 ![Example Input Genotype File](https://github.com/lncRNAAddict/GenotypeFixer/blob/main/Figures/genotype_file.JPG)
 
 
-### Outputs
+## Outputs
 GenotypeFixer Generates the following outputs.
 
 - Corrected genotype File: `<output>.corrected.csv` This is the corrected genotype file. A screeshot of a portion of an example corrected file is shown below
