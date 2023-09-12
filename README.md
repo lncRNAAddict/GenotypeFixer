@@ -10,7 +10,7 @@ Here, we present a Python tool called `GenotypeFixer` which offers an easy-to-us
 
 `GenotypeFixer` has been tested with Python 3.8.12 version. It should work with Python >= 3.0 version. We recommend installing the anaconda python distribution. Download the anaconda python distribution from https://www.anaconda.com/products/distribution and install it following the instructions provided.
 
-`GenotypeFixer` depends on the following Python libraries. These libraries are already included in the Anaconda distribution. Therefore, you do not need to install them.
+`GenotypeFixer` depends on the following Python libraries. 
 
 - `numpy`
 - `Pandas`
